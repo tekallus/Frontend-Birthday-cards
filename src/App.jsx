@@ -55,7 +55,6 @@ export default function App() {
           onMouseDown={handleMouseDown}
           onMouseUp={handleMouseUp}
           onMouseMove={handleMouseMove}
-          onClick={() => setCardOpen(!cardOpen)}
           className={`cover ${cardOpen && 'open'}`}
         >
           <FrontMessage />
